@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Landing Page</title>
+    <link rel="stylesheet" href="Landing_Page.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="images/logo.png" alt="" class="logo" />
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#featured">Shop</a></li>
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Discover Amazing Clothes</h1>
+        <p>Find the best clothes at unbeatable prices.</p>
+        <button class="shop-now-btn" onclick="scrollToSection('featured')">
+          Shop Now
+        </button>
+      </div>
+    </section>
+
+    <section id="featured" class="featured-products">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/product1.png" alt="Product 1" />
+          <h3>Shirt</h3>
+          <p>&#8377;1299.00</p>
+          <button class="add-to-cart" onclick="addToCart('Shirt')">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/product2.png" alt="Product 2" />
+          <h3>Saree</h3>
+          <p>&#8377;10599.00</p>
+          <button class="add-to-cart" onclick="addToCart('Saree')">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/product3.png" alt="Product 3" />
+          <h3>Kurta</h3>
+          <p>&#8377;1559.00</p>
+          <button class="add-to-cart" onclick="addToCart('Kurta')">
+            Add to Cart
+          </button>
+        </div>
+
+        <div class="product-card">
+          <img src="images/product4.png" alt="Product 4" />
+          <h3>Skirt</h3>
+          <p>&#8377;1099.00</p>
+          <button class="add-to-cart" onclick="addToCart('Skirt')">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/product5.png" alt="Product 5" />
+          <h3>Lehenga</h3>
+          <p>&#8377;15999.00</p>
+          <button class="add-to-cart" onclick="addToCart('Lehenga')">
+            Add to Cart
+          </button>
+        </div>
+        <div class="product-card">
+          <img src="images/product6.png" alt="Product 6" />
+          <h3>Lehenga</h3>
+          <p>&#8377;12999.00</p>
+          <button class="add-to-cart" onclick="addToCart('Lehenga')">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-us" class="featured-products">
+      <h2>About Us</h2>
+      <div class="about-us">
+        <h3>Welcome to You & Me Shop!</h3> 
+        <p>At You & Me Shop, we believe in creating a
+        personalized shopping experience that feels like it's just for you.
+        We’re not just another online store—we’re your partner in finding
+        exactly what you need, with a touch of charm and a whole lot of love.</p>
+        <h3>Who We Are</h3>
+        <p>You & Me Shop is the brainchild of a passionate team who
+        loves bringing joy to everyday shopping. Our mission is simple: to
+        connect you with products that make life easier, more enjoyable, and
+        more vibrant. From the latest fashion trends to essential household
+        items, we handpick a diverse range of products that cater to your unique
+        tastes and needs.</p>
+        <h3>Why Choose Us?</h3> 
+        <p>Curated Selection: Our catalog is
+        carefully curated with high-quality items that we know you’ll love. We
+        prioritize variety, ensuring there’s something for everyone, no matter
+        your style or preferences.</p> 
+        <p>Customer-Centric Approach: Your satisfaction
+        is our top priority. Our friendly support team is always here to assist
+        you, ensuring a smooth and delightful shopping experience from start to
+        finish.</p> 
+        </p>Affordable Prices: We believe great products shouldn’t come with
+        a hefty price tag. Our competitive pricing ensures you get the best
+        value without compromising on quality.</p> 
+        <p>Secure Shopping: Your privacy and
+        security are paramount to us. Our site uses the latest encryption
+        technology to protect your personal and payment information, so you can
+        shop with confidence.</p>
+        <h3>Our Journey</h3> 
+        <p>You & Me Shop started with a vision to
+        make online shopping feel personal and enjoyable. Since our launch,
+        we’ve grown into a beloved destination for shoppers who value quality,
+        variety, and exceptional service. Our journey is fueled by your trust
+        and feedback, and we’re constantly evolving to serve you better.</p> 
+        <h3>Our Commitment</h3>
+        <p>We’re committed to providing a seamless and enjoyable
+        shopping experience. Whether you’re browsing our latest collections or
+        seeking help with an order, we’re here for you every step of the way.
+        Together, You & Me Shop isn’t just about shopping; it’s about building a
+        community where you feel connected and valued.</p> 
+        <h3>Let’s Stay Connected</h3> 
+        <p>Join
+        our community to stay updated on the latest arrivals, special offers,
+        and exclusive deals. Follow us on social media and subscribe to our
+        newsletter to be a part of our exciting journey.</p> 
+        <p>You & Me Shop—because
+        shopping is more fun when it’s all about You & Me!
+        </p>
+    </div>
+    </section>
+
+    <footer id="footer">
+      <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+      <p>&copy; 2024 | E-Shop | www.youandmeshop.com | All rights reserved</p>
+    </footer>
+
+    <script src="Landing_Page.js"></script>
+  </body>
+</html>

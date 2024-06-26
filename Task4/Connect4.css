@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(0, 255, 0);
+}
+
+h1 {
+    margin: auto;
+    padding: 5px;
+    width: 25%;
+    height: 5%;
+    color: green;
+    border-radius: 10px;
+    background-color: limegreen;
+    box-shadow: 2px 2px 5px green;
+}
+
+#board {
+    position: relative;
+    top: 25px;
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#winner {
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 30%;
+    height: 5%;
+    font-size: 32px;
+    color: rgb(0, 100, 0);
+    text-shadow: 2px 2px white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+    cursor: pointer;
+}
+
+.red-piece {
+    background-color: red;
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
+
+#resetButton {
+    display: inline-block;
+    margin: 35px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid green;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+}
+
+#resetButton:hover {
+    background-color: #45a049;
+    box-shadow: 2px 2px 5px green;
+}
